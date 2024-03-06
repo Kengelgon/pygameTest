@@ -1,4 +1,5 @@
 import pygame
+
 pygame.init()
 
 screen = pygame.display.set_mode((500, 500))
@@ -14,6 +15,6 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    screen.blit(bat, (250,250))
+    screen.blit(bat, (250, 250))
 
     pygame.display.flip()
